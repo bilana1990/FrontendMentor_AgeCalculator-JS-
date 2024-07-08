@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="main">
+      <form action="#">
+        <div class="day">
+          <h3>DAY</h3>
+          <input type="number" name="DAY" id="DAY" />
+        </div>
+        <div class="month">
+          <h3>MONTH</h3>
+          <input type="number" name="MONTH" id="MONTH" />
+        </div>
+        <div class="year">
+          <h3>YEAR</h3>
+          <input type="number" name="YEAR" id="YEAR" />
+        </div>
+      </form>
+      <hr />
+      <div class="arrow" id="arrowBTN" onclick="calculateAge()">&#8595;</div>
+
+      <p id="daysResult"></p>
+      <p id="monthResult"></p>
+      <p id="yearResult"></p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
